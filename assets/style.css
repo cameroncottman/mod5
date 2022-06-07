@@ -1,0 +1,60 @@
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  #dotted-line {
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: black;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: black;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: black;
+  }
+  
+  .border-left-width {
+    border-left-width: 5px !important;
+    border-left-color: grey !important;
+  }
+  .border-right-width {
+    border-right-width: 5px !important;
+  }
+  
+  #rounded-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .image-responsive {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-area-control {
+    width: 745px;
+    height: 95px;
+    background: transparent;
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+    resize: none;
+    color: #000000;
+/* border-left: 1px solid black; */
+    padding: 10px;
+  }
+  
+  img:hover {
+    transform: scale(1.5);
+  }
